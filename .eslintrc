@@ -6,8 +6,8 @@
     "plugins": [
         "@typescript-eslint",
         "react",
-        "prettier",
-        "simple-import-sort"
+        "simple-import-sort",
+        "eslint-plugin-prettier"
     ],
     "settings": {
         "react": {
@@ -32,7 +32,7 @@
     "extends": [
         "airbnb",
         "airbnb/hooks",
-        "prettier"
+        "eslint-plugin-prettier"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -42,7 +42,9 @@
     },
     "rules": {
         "no-console": "warn",
+        "jsx-quotes": [2, "prefer-single"],
         "no-eval": "error",
+        "linebreak-style": 0,
         "react/react-in-jsx-scope": "off",
         "react/jsx-filename-extension": [
             2,
