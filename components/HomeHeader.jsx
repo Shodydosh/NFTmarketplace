@@ -83,8 +83,11 @@ const HomeHeader = ({ onSearch }) => {
                     />
                     <TextInput
                         placeholder='Search'
+                        placeholderTextColor={COLORS.white}
                         style={{ flex: 1, color: COLORS.white }}
-                        onChangeText={() => {}}
+                        onChangeText={(value) => {
+                            onSearch(value);
+                        }}
                     />
                 </View>
             </View>

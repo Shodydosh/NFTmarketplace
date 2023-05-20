@@ -14,6 +14,7 @@ const DetailsDesc = ({ data }) => {
                     flexDirection: 'row',
                     justifyContent: 'space-between',
                     alignItems: 'center',
+                    zIndex: 3,
                 }}
             >
                 <NFTTitle

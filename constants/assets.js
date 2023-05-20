@@ -1,41 +1,41 @@
-import badge from "../assets/icons/badge.png";
-import eth from "../assets/icons/eth.png";
-import heart from "../assets/icons/heart.png";
-import left from "../assets/icons/left.png";
-import search from "../assets/icons/search.png";
+import badge from '../assets/icons/badge.png';
+import eth from '../assets/icons/eth.png';
+import heart from '../assets/icons/heart.png';
+import left from '../assets/icons/left.png';
+import search from '../assets/icons/search.png';
 
-import logo from "../assets/images/logo.png";
-import nft01 from "../assets/images/nft01.png";
-import nft02 from "../assets/images/nft02.jpeg";
-import nft03 from "../assets/images/nft03.jpeg";
-import nft04 from "../assets/images/nft04.jpeg";
-import nft05 from "../assets/images/nft05.jpeg";
-import nft06 from "../assets/images/nft06.jpeg";
-import nft07 from "../assets/images/nft07.jpeg";
+import logo from '../assets/images/logo.png';
+import nft1 from '../assets/images/nft1.png';
+import nft2 from '../assets/images/nft2.png';
+import nft3 from '../assets/images/nft3.png';
+import nft4 from '../assets/images/nft4.png';
+import nft5 from '../assets/images/nft5.png';
+import nft6 from '../assets/images/nft6.png';
+import nft7 from '../assets/images/nft7.png';
 
-import person01 from "../assets/images/person01.png";
-import person02 from "../assets/images/person02.png";
-import person03 from "../assets/images/person03.png";
-import person04 from "../assets/images/person04.png";
+import person01 from '../assets/images/person01.png';
+import person02 from '../assets/images/person02.png';
+import person03 from '../assets/images/person03.png';
+import person04 from '../assets/images/person04.png';
 
 export default {
-  badge,
-  eth,
-  heart,
-  left,
-  search,
+    badge,
+    eth,
+    heart,
+    left,
+    search,
 
-  logo,
-  nft01,
-  nft02,
-  nft03,
-  nft04,
-  nft05,
-  nft06,
-  nft07,
+    logo,
+    nft1,
+    nft2,
+    nft3,
+    nft4,
+    nft5,
+    nft6,
+    nft7,
 
-  person01,
-  person02,
-  person03,
-  person04,
+    person01,
+    person02,
+    person03,
+    person04,
 };

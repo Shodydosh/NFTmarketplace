@@ -1,5 +1,5 @@
 import { DefaultTheme, NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
+import { createStackNavigator, TransitionSpecs } from '@react-navigation/stack';
 import { useFonts } from 'expo-font';
 
 import Home from './screens/Home';
@@ -15,6 +15,18 @@ const theme = {
 };
 
 function App() {
+    const fadeTransition = {
+        gestureDirection: 'horizontal',
+        transitionSpec: {
+            open: TransitionSpecs.TransitionIOSSpec,
+            close: TransitionSpecs.TransitionIOSSpec,
+        },
+        cardStyleInterpolator: ({ current }) => ({
+            cardStyle: {
+                opacity: current.progress,
+            },
+        }),
+    };
     const [loaded] = useFonts({
         InterBold: require('./assets/fonts/Inter-Bold.ttf'),
         InterSemiBold: require('./assets/fonts/Inter-SemiBold.ttf'),

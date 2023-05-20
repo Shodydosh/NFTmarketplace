@@ -3,7 +3,6 @@ import { EthPrice } from '../SubInfo';
 import { COLORS, SIZES, FONTS } from '../../constants';
 
 const DetailsBid = ({ bid }) => {
-    console.log(bid);
     return (
         <View
             style={{

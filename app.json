@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "NFTmarketplace",
-    "slug": "NFTmarketplace",
+    "slug": "nft-marketplace",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +15,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sh0dyd0sh.nftmarketplace"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sh0dyd0sh.nftmarketplace"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6da06b31-7d55-4502-92f7-d0c93d0d4afe"
+      }
+    },
+    "owner": "sh0dyd0sh"
   }
 }

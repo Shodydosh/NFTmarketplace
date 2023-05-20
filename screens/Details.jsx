@@ -18,11 +18,11 @@ import {
 } from '../components';
 
 const DetailsHeader = ({ data, navigation }) => {
-    console.log('--------');
-    console.log(data.name);
-    console.log(data.image);
-    console.log(data);
-    console.log('--------');
+    // console.log('--------');
+    // console.log(data.name);
+    // console.log(data.image);
+    // console.log(data);
+    // console.log('--------');
     return (
         <View style={{ width: '100%', height: 373 }}>
             <Image
