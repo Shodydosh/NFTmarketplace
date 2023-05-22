@@ -4,6 +4,7 @@ import { useFonts } from 'expo-font';
 
 import Home from './screens/Home';
 import Details from './screens/Details';
+import CreateQuiz from './screens/CreateQuiz';
 
 const Stack = createStackNavigator();
 const theme = {
@@ -38,10 +39,11 @@ function App() {
         <NavigationContainer theme={theme}>
             <Stack.Navigator
                 screenOptions={{ headerShown: false }}
-                initialRouteName='Home'
+                initialRouteName='CreateQuiz'
             >
                 <Stack.Screen name='Home' component={Home} />
                 <Stack.Screen name='Details' component={Details} />
+                <Stack.Screen name='CreateQuiz' component={CreateQuiz} />
             </Stack.Navigator>
         </NavigationContainer>
     );
